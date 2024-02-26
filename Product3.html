@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Name - Track Tribute</title>
+    <link rel="stylesheet" href="styles_product3.css">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Track Tribute</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products_Page.html">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="product-details">
+    <img src="product1.jpg" alt="Product 1">
+    <h2>Product Name</h2>
+    <p>Description of the product. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <form action="add_to_cart.php" method="post">
+        <label for="size">Select Size:</label>
+        <select name="size" id="size">
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="X-large">X-Large</option>
+            <option value="XX-large">XX-Large</option>
+        </select>
+
+        <label for="color">Select Color:</label>
+        <select name="color" id="color">
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+            <option value="Gray">Gray</option>
+
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" value="1" min="1" max="2">
+
+        <p>Price: $29.99</p>
+
+        <button type="submit" class="add-to-cart">Add to Cart</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2024 Track Tribute. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
